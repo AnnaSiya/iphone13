@@ -1,0 +1,897 @@
+body {
+    width: 1512px;
+    height: 5067px;
+         background-color: #ffffff;
+    position: relative;
+    border: 1px solid yellow;
+
+   
+}
+/*стили для первой секции*/
+.section {
+    width: 1512px;
+    height: 930px;
+    background-color: #1b1b1b;
+    position: relative;
+  }
+/*стиль для заголовка */
+  .section__h1 {
+    width: 933px;
+    height: 166px;
+    padding-top: 111px;
+    margin-left: 289px;
+        font-size: 140px;
+        text-transform: uppercase; /*все буквы заглавные*/
+        font-family: "Montserrat", sans-serif; /*добавила кастомный шрифт*/
+        font-size: 140px;
+        font-weight: 700;
+        font-family: 700;
+        line-height: 170.66px;
+        letter-spacing: 0.03em;
+        text-align: center;              
+         line-height: 170.66px; 
+    color: #fff;
+       letter-spacing: 0.03em;
+    text-align: center;
+
+  }
+/*стиль для параграфа*/
+  .section__p{
+ width: 580px;
+ height: 55px;
+margin-left: 466px;
+padding-top: 27px;
+font-size:  36px;
+line-height: 43.88px;
+text-align: center;
+letter-spacing: 0.03em;
+font-family: "Montserrat", sans-serif; /*добавила кастомный шрифт*/
+font-weight: 500;
+color: #f5f5f5;
+  }
+
+  .section__img {
+    width: 1299px;
+    height: 743px;
+       padding-left: 106px;
+       padding-top: 46px;
+  }
+
+  /*создание ВТОРОЙ секции*/
+  .section2 {
+    width: 1512px;
+    height: 930px; 
+    position: relative; /*позицион.РОДИТЕЛь для стрелки */
+  }
+/*стили для заголовка H2*/
+  .section2__h2 {
+    width: 765px;
+    height: 166px;
+    padding-left: 373px;
+    padding-top: 290px;
+    font-size: 64px;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: 75.14px;
+    text-align: center;
+    font-family: "Raleway", sans-serif; /* добавила кастомный шрифт*/
+color: #262525;
+  }
+
+/*стили для параграфа P*/
+  .section2__p {
+    width: 967px;
+    height: 210px;
+    margin-left: 272px;
+    font-size: 24px;
+    line-height: 37.78px;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif; /* добавила кастомный шрифт*/
+    color: #262525;
+    text-align: center;
+  }
+
+  /*стили для заголовка H3*/
+  .section2__h3 {
+    width: 241px;
+    height: 36px;
+    font-size: 20px;
+    line-height: 31.48px;
+    text-align: center;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif; /* добавила кастомный шрифт*/
+ color: #262525;
+ padding-left: 635px;
+
+}
+
+.section2:after { /*псевдоэлемент AFTER */
+  content: '';
+  display: block; /*для расположение стрелки  для псевдоэлемента*/
+  position: absolute; /*позиционирование  ДОЧКИ для псевдоэлемента чтобы двигать*/
+  width: 30px;
+  height: 30px;
+  left:741px;
+  background-image: url('strelka.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+ 
+
+/*создание ТРЕТЬЕЙ секции*/
+
+ .section3 {
+  width: 1512px;
+  height: 525px;
+    background-color: #1b1b1b;
+}
+/*сделала фоновый рисунок айфон*/
+
+.foto {
+
+  width: 1261px;
+  height: 624.59px;
+  background-image: url('iPhone.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100;
+  margin: 0 auto; /*по середине*/
+  position: relative; /*позиц. для поднятия рисунка чуть выше на секцию*/
+  bottom: 165px; /*размер поднятият вверх*/
+
+}
+
+.foto__h1 {
+
+  width: 811px;
+  height: 166px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  font-family: "Raleway", sans-serif; /* добавила кастомный шрифт*/
+color:#fff;
+margin: 0 auto;
+padding-top: 117px;
+text-transform: uppercase;
+
+}
+
+.foto__h4 {
+
+  width: 874px;
+  height: 85px;
+  font-size: 36px;
+  font-family: "Raleway", sans-serif; /* добавила кастомный шрифт*/
+font-weight: 500;
+line-height: 56.66px;
+margin: 0 auto;
+padding-left: 30px;
+padding-top: 50px;
+color: #f5f5f5;
+
+}
+
+.foto__p {
+  width: 941px;
+  height: 88px;
+   padding-left: 160px;
+ font-size: 24px;
+ font-weight: 500;
+ font-family: "Raleway", sans-serif; /* добавила кастомный шрифт*/
+line-height: 30px;
+color: #7a7a7a;
+text-align: center;
+
+}
+
+/*создание ЧЕТВЕРТОЙ секции*/
+
+.section4 { 
+  width: 1512px;
+  height: 1021px;
+        display: block;
+     
+}
+
+.section4__h1 {
+
+  width: 727px;
+height: 59px;
+  font-size: 48px;
+line-height: 38px;
+font-weight: 700;
+font-family: "Raleway", sans-serif; /* добавила кастомный шрифт*/
+color: #292929;
+margin-left: 388px;
+text-align: center;
+margin-top: 120px;
+
+}
+ 
+.container { /* контейнер для 3-х боксов*/
+  width: 1264px;
+  height: 704px;
+       margin-left: 156px;
+   margin-top: 60px;
+   display: inline-block;
+    box-sizing: border-box;
+   }
+
+/*псевдоэлемент для стрелки за контенером слева*/   
+.container:after { 
+    content:'';
+    position: absolute;
+    display: block;
+    width: 64px;
+    height: 64px;
+     background-image: url('strel2.png'); /*рисунок стрелки*/
+    background-repeat: no-repeat;
+    left: 90px;
+  margin-top: 225px;
+            background-position: 100%;
+    background-size: cover;
+  background-color: #f1e7ee; /*цвет фона для стрелки с рамкой */
+  border-radius: 50%; /*свойства для закругленной рамки для стрелки*/
+ box-shadow:  2px 1px 20px 0px #f56cd7;/*свечение объекта и подсветка черным*/
+  
+}
+.box1 { /*ПЕРВЫЙ бокс для содержимого*/
+  width: 384px;
+  height: 655px;
+    position: absolute;
+       
+     }
+
+.box1__img { /*рисунок айфон1*/
+  width: 384px;
+  height: 418px;
+   border-radius: 32px 32px 0px 0px;
+    
+}
+
+.sec1 {  /*черная секция с содержимым и кнопкой*/
+  width: 384px;
+  height: 237px;
+  background-color: #1B1B1B;
+  border-radius: 0px 0px 32px 32px;
+    padding: 24px;
+  box-sizing: border-box;
+  position: absolute;
+  
+}
+
+.sec1__h2 { /*заголовок в черной секции*/
+  width: 182px;
+  height: 33px;
+  font-size: 28px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+    line-height: 32.87px;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+.sec1__p { /*параграф в черной секции*/
+  width: 43px;
+  height: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  line-height: 19.5px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.sec1__h3 {
+  width: 120px;
+  height: 29px;
+  font-size: 24px;
+  line-height: 29.26px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+color: #f1f8ff;
+text-transform: uppercase;
+margin-bottom: 15px; /*отступ вниз для кнопки*/
+
+}
+
+button {  /*кнопка*/
+  width: 336px;
+  height: 66px;
+    background-color: #fff;
+  border-radius: 30px;
+     gap: 10px;
+ cursor: pointer;
+   font-size: 20px;
+  text-align: center;
+  border: none;
+  font-weight: 600;
+  line-height: 24.38px;
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  padding: 16px 32px 16px 32px;
+
+}
+
+
+/*второй блок с айфоном*/
+
+.box2 { 
+  width: 384px;
+  height: 655px;
+  margin-top: -420px;
+      margin-left: 400px;
+         position: absolute;          
+
+  }
+
+  .box2__img { /*рисунок айфон1*/
+    width: 384px;
+    height: 418px;
+     border-radius: 32px 32px 0px 0px;
+      
+  }
+  
+  .sec2 {  /*черная секция с содержимым и кнопкой*/
+    width: 384px;
+    height: 237px;
+    background-color: #1B1B1B;
+    border-radius: 0px 0px 32px 32px;
+      padding: 24px;
+    box-sizing: border-box;
+    position: absolute;
+    
+  }
+  
+  .sec2:after{ 
+    content:'';
+    position: absolute;
+    display: block;
+    width: 64px;
+    height: 16px;
+   left: 161px;
+    top: 260px;
+          background-image: url('Frame.png'); /*рисунок стрелки*/
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: contain;
+  
+      }
+  
+  .sec2__h2 { /*заголовок в черной секции*/
+    width: 182px;
+    height: 33px;
+    font-size: 28px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+      line-height: 32.87px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 10px;
+  }
+  
+  .sec2__p { /*параграф в черной секции*/
+    width: 37px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    line-height: 19.5px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .sec2__h3 {
+    width: 120px;
+    height: 29px;
+    font-size: 24px;
+    line-height: 29.26px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+  color: #f1f8ff;
+  text-transform: uppercase;
+  margin-bottom: 15px; /*отступ вниз для кнопки*/
+  
+  }
+  
+  button {  /*кнопка*/
+    width: 336px;
+    height: 66px;
+      background-color: #fff;
+    border-radius: 30px;
+       gap: 10px;
+   cursor: pointer;
+     font-size: 20px;
+    text-align: center;
+    border: none;
+    font-weight: 600;
+    line-height: 24.38px;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    padding: 16px 32px 16px 32px;
+  
+  }
+
+
+  /*третий  блок с айфоном*/
+
+   
+.box3 { /*третий блок с айфоном*/
+  width: 384px;
+  height: 655px;
+      margin-left: 800px;
+    position: relative;
+   margin-top: -419px;
+ margin-left: 400px;
+}
+
+/*псевдоэлемент для стрелик справа*/
+ 
+.box3:after{ 
+  content:'';
+  position: absolute;
+  display: block;
+  width: 64px;
+  height: 64px;
+  left: 395px;
+  top: 225px;
+  background-image: url('strel.png'); /*рисунок стрелки*/
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
+background-color: #ffffff; /*цвет фона для стрелки с рамкой */
+border-radius: 50%; /*свойства для закругленной рамки для стрелки*/
+box-shadow: 2px 1px 20px 0px #f56cd7; /*свечение объекта и подсветка черным*/
+
+}
+  
+    .box3__img { /*рисунок айфон1*/
+      width: 384px;
+      height: 418px;
+       border-radius: 32px 32px 0px 0px;
+       
+    }
+    
+    .sec3 {  /*черная секция с содержимым и кнопкой*/
+      width: 384px;
+      height: 237px;
+      background-color: #1B1B1B;
+      border-radius: 0px 0px 32px 32px;
+        padding: 24px;
+      box-sizing: border-box;
+      position: absolute;
+      
+    }
+    
+    .sec3__h2 { /*заголовок в черной секции*/
+      width: 182px;
+      height: 33px;
+      font-size: 28px;
+      font-family: "Raleway", sans-serif;
+      font-weight: 700;
+        line-height: 32.87px;
+      text-align: center;
+      color: #fff;
+      padding-bottom: 10px;
+    }
+    
+    .sec3__p { /*параграф в черной секции*/
+      width: 37px;
+      height: 20px;
+      font-size: 16px;
+      font-weight: 400;
+      font-family: "Montserrat", sans-serif;
+      line-height: 19.5px;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+    
+    .sec3__h3 {
+      width: 120px;
+      height: 29px;
+      font-size: 24px;
+      line-height: 29.26px;
+      font-weight: 700;
+      font-family: "Montserrat", sans-serif;
+    color: #f1f8ff;
+    text-transform: uppercase;
+    margin-bottom: 15px; /*отступ вниз для кнопки*/
+    
+    }
+    
+    button {  /*кнопка*/
+      width: 336px;
+      height: 66px;
+        background-color: #fff;
+      border-radius: 30px;
+         gap: 10px;
+     cursor: pointer;
+       font-size: 20px;
+      text-align: center;
+      border: none;
+      font-weight: 600;
+      line-height: 24.38px;
+      color: #000000;
+      font-family: "Montserrat", sans-serif;
+      padding: 16px 32px 16px 32px;
+    
+    }
+
+
+    /*создание секции черной с фото*/
+  .sect5 {
+    width: 1512px;
+    height: 836px;
+    background-color: #1B1B1B;
+    margin-top: 70px;
+    position: relative;
+  
+  }
+     /*стили для заголовка */ 
+  .sect5__h1 {
+width: 671px;
+height: 38px;
+margin: 0 auto;
+padding-top: 80px;
+font-size: 48px;
+line-height: 38px;
+font-weight: 700;
+font-family: "Montserrat", sans-serif;
+color: #ffffff;
+margin-bottom: 50px; /*отсутп вниз для параграфа*/
+
+
+}
+
+.sect5__p{
+  width: 607px;
+  height: 75px;
+    font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  color: #f5f5f5;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 80px; /*отступ вниз для картинки*/
+}
+
+/*стили для рисунка*/
+.sect5__i{
+  width: 993px;
+  height: 431px;
+  position: relative;
+  border-radius: 32px; /*закругление углов рамки*/
+    margin: 0 auto;
+  margin-left: 260px;
+  
+}
+
+/*псевдоэлемент для stop на фото*/
+.sect5:after{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+    left: 700px;
+  bottom: 250px;
+  background-image: url('play.png'); /*рисунок стрелки*/
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: contain;
+
+}
+
+/*создание ШЕСТОЙ секции*/
+
+.sect6{
+  width: 1512px;
+  height: 480px;
+    position: relative;
+
+   }
+
+.sect6:before{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 1512px;
+  height: 109px;
+ margin-top: -50px;
+   background-image: url('wave.png'); /*рисунок стрелки*/
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
+
+}
+
+  
+/*картинка слева*/
+
+.sect6__img {
+  width: 649px;
+  height: 320px;
+  border-radius: 32px;
+margin-left: 100px;
+margin-top: 110px;
+box-sizing: border-box;
+position: absolute;
+border: 2px inset rgb(184, 178, 178);
+}
+
+/*создание класса для заголовка и кнопки с содержимым*/
+
+.cont2 {
+  width: 419px;
+  height: 185px;
+   margin-left: 900px;
+   position: absolute;
+ margin-top: 180px;
+}
+
+.cont2__h1{
+  width: 419px;
+  height: 48px;
+  
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+color: #727272;
+line-height: 24.38px;
+
+}
+
+/*создание кнопки с надписями 2*/
+.box6 {
+    width: 419px;
+  height: 65px;
+  margin-right:50px;
+         border: 1.5px solid #dfcece;
+      padding: 8px 8px 8px 24px;
+     border-radius: 32px;
+      margin-top: 52px;
+  
+}
+
+/*первая надпись на кнопке*/
+
+.box6__p {
+  width: 148px;
+  height: 17px;
+   font-size: 14px;
+    font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  line-height: 17.07px;
+  position: absolute;
+  margin-top: 25px;
+ letter-spacing: 2%;
+ color: #545454;
+
+ } 
+
+/*вторая надпись на кнопке*/
+.box6__but {
+  width: 185px;
+  height: 63px;
+    border-radius: 32px;
+font-size: 14px;
+color: hwb(0 95% 3%);
+font-weight: 600;
+font-family: "Montserrat", sans-serif;
+line-height: 18px;
+box-sizing: border-box;
+border-radius: 32px;
+   padding-bottom: 12px;
+   text-align: center;
+   background-color: #1b1b1b;
+     margin-left: 225px;
+   }
+
+
+
+/*создание подвала*/
+.footer {
+  width: 1512px;
+  height: 269px;
+  background-color: #1D1c1c;
+display: inline-block;
+position: relative;
+  padding-top: 80px;  /*отступ для певрого блока*/                                                    
+}
+
+/*ПЕРВЫЙ БЛОК*/
+
+.contapp {
+  width: 320px;
+    height: 207px;
+    position: absolute;  /*позиционирование для выравнивания по горизоньали блоков двух*/
+      margin-left: 105px; /*отсуп влево */
+  gap: 32px;
+}
+ 
+
+ .contapp__h1{
+width: 109px;
+height: 23px;
+font-size: 20px;
+font-weight: 900;
+transform: rotate(-0deg);
+line-height: 23.43px;
+font-family: "Raleway", sans-serif; /* добавила кастомный шрифт*/
+color: #ffffff;
+
+}
+
+.contapp__p{
+  width: 320px;
+  height: 63px;
+  transform: rotate(-0deg);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  position: relative;
+  line-height: 21px;
+  letter-spacing: 2%;
+  color: #c8c8c8;
+  margin-top: 30px;
+  
+}
+
+.contapp__p:after {
+content: '';
+display: block;
+width: 192px;
+height: 32px;
+position: absolute;
+background-image: url('social.png');
+background-repeat: no-repeat;
+background-position: 50%;
+background-size: cover;
+margin-top: 78px;
+
+}
+
+
+/*ВТОРОЙ БЛОК*/
+.contt {  /*стили для блока с 3-мя секциями*/
+  width: 588px;
+  height: 207px;
+   margin-left: 820px;
+    position: relative;
+   gap: 24px;
+}
+
+/*ПЕРВАЯ СЕКЦИЯ БЛОКА*/
+
+.section7{ /*стили для секции*/
+  width: 160px;
+  height: 207px;
+  position: absolute;
+}
+
+.section7__h1{   /*стили для заголовка*/
+  width: 160px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: 600px;
+  line-height: 30px;
+font-family: "Poppins", sans-serif;
+color: #EFEEEF;
+
+
+}
+
+.section7__ul { /*стили для UL*/
+  width: 160px;
+  height: 153px;
+  margin-top: 20px;
+  list-style-type:none;
+  gap: 12px;
+  font-size: 14px;
+letter-spacing: 2%;
+ font-family: "Poppins", sans-serif; 
+  color: #c8c8c8;
+}
+   
+
+
+.section7__ul__li { /*стили для LI*/
+  width: 160px;
+  height: 21px;
+ padding-bottom: 13px;  /*отступ между маркерами*/
+
+}
+
+/*создание ВТОРОЙ СЕКЦИИ БЛОКА*/
+
+.section8 { /*стили для секции*/
+  width: 160px;
+  height: 207px;
+  position: absolute; 
+  gap: 24px;
+  margin-left: 180px;  /*отсутп влево*/
+}
+
+.section8__h1{   /*стили для заголовка*/
+  width: 160px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: 600px;
+  line-height: 30px;
+font-family: "Poppins", sans-serif;
+color: #EFEEEF;
+
+}
+
+.section8__ul { /*стили для UL*/
+  width: 160px;
+  height: 153px;
+  margin-top: 20px;
+  list-style-type:none;
+   gap: 12px;
+  font-size: 14px;
+letter-spacing: 2%;
+ font-family: "Poppins", sans-serif; 
+  color: #c8c8c8;
+}
+   
+.section7__ul__li { /*стили для LI*/
+  width: 160px;
+  height: 21px;
+ padding-bottom: 13px;  /*отступ между маркерами*/
+
+}
+
+.section9 {
+  width: 220px;
+  height: 107px;
+  margin-left: 360px;
+}
+
+.section9__h1 {
+  width: 210px;
+  height: 30px;
+font-size: 20px;
+font-weight: 600px;
+font-family:  "Poppins", sans-serif; 
+line-height: 30px;
+color: #EFEEEF;
+margin-bottom: 20px;
+}
+
+.section9__cn {
+  width: 220px;
+  height: 53px;
+  border-radius: 32px;
+  justify-content: space-between;
+  padding: 16px 24px 16px 24px;
+  background-color: #545454;
+font-size: 14px;  
+line-height: 21px;
+position: relative;
+letter-spacing: 2%;
+font-weight: 400;
+text-align: center;
+font-family: "Poppins", sans-serif; 
+color: #c8c8c8;
+
+}
+
+.section9__cn:after {
+  content: '';
+display: block;
+position: absolute;
+width: 16.5px;
+height: 16.5px;
+top: 20px;
+left: 185px;
+background-image: url('Vector.png');
+background-repeat: no-repeat;
+background-position: 50%;
+background-size: cover;
+}
+
